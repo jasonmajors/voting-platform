@@ -1,0 +1,88 @@
+.main {
+	background-image: url("../images/sailing.jpg");
+	background-repeat: no-repeat;
+	font-family: Helvetica;
+}
+
+.yes-vote-body {
+	background-image: url("../images/yes-vote-gloomy.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.no-vote-body {
+	background-image: url("../images/no-vote.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.vote-container {
+	position: relative;
+	font-family: Impact;
+	height: 100%;
+	width: 100%;
+}
+
+.xy-align-center {
+	width: 50%;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 50%;
+	margin-left: 25%;
+	transform: translateY(-50%);
+/*	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	padding: 4em;*/
+}
+
+.vert-align {
+	color: white;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.big-heading {
+	font-size: 10em;
+	text-decoration: none;
+}
+
+.vote-page-link {
+	color: white;
+	font-size: 3em;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color: #e6e6e6;
+}
+a:active {
+    text-decoration: none;
+}
+
+#council-register {
+	display: none;
+	margin-top: 100px;
+}
+
+.modal-content {
+	background-color: #333333;
+}
+
+.modal-text {
+	margin: 0 !important;
+}
+
+button.close {
+	color: white;
+}
+
+.council-icon {
+	height: 30px;
+}
